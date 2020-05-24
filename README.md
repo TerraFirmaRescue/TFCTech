@@ -1,3 +1,5 @@
+Forked to use in modpack Terra Firma Rescue.
+
 ![Logo](https://raw.githubusercontent.com/Shurgent/TFCTech/master/src/resources/assets/tfctech/textures/TFCTechLogo.png)
 ==============
 
