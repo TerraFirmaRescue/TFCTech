@@ -31,7 +31,7 @@ allprojects {
     apply plugin: 'maven'
     group = config.group_name
     version = config.mod_version
-    archivesBaseName = "[${config.minecraft_version}]${config.mod_id}"
+    archivesBaseName = "[TFC]TFRTech"
 
     minecraft {
         version = config.minecraft_version + "-" + config.forge_version
@@ -67,7 +67,7 @@ dependencies {
 sourceSets {
    main {
      java {
-       srcDirs = [ 'src/main' , 'src/API' ]
+       srcDirs = [ 'src/main/java' , 'src/API' ]
 	   exclude '**/resources/'
      }
 	 resources {

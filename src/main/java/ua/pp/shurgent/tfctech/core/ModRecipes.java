@@ -681,17 +681,6 @@ public class ModRecipes {
 				'#',
 				new ItemStack(TFCItems.flatClay, 1, 1)
 		});
-		
-		craftingManager.addRecipe(new ItemStack(ModItems.potteryCeramicPlate, 3), new Object[] {
-				"     ",
-				"#####",
-				"     ",
-				"#####",
-				"     ",
-				'#',
-				new ItemStack(TFCItems.flatClay, 1, 1)
-		});
-		
 	}
 	
 	private static void registerMolds() {
